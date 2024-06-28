@@ -23,3 +23,10 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('homepage');
 });
+
+Route::get('/about', function () {
+
+    $data = config("data");
+
+    return view('about', $data);
+});

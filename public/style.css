@@ -4,6 +4,26 @@ body {
     color: white;
 }
 
-.deb {
-    border: 2px dashed blue;
+img {
+    height: 35rem;
+}
+
+.cardBox:hover {
+    transform: scale(1.1);
+}
+
+.cardInfoBox {
+    opacity: 0;
+}
+
+.cardInfoBox:hover {
+    opacity: 1;
+}
+
+.subtitle {
+    color: red;
+}
+
+span {
+    color: white;
 }
