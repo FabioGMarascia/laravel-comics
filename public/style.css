@@ -4,7 +4,19 @@ body {
     color: white;
 }
 
-img {
+.deb {
+    border: 3px dashed blue;
+}
+
+.logo {
+    height: 6rem;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.cardBox img {
     height: 35rem;
 }
 
