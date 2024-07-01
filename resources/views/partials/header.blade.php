@@ -12,8 +12,11 @@
                 <div class="col-6 my-auto">
                     <nav class="fw-bold fs-4 text-end">
 
-                        <a href="/home" class="px-3 text-decoration-none text-dark py-4 rounded-5">HOME</a>
-                        <a href="/cardList" class="px-3 text-decoration-none text-dark py-4 rounded-5">COMIC LIST</a>
+                        <a href="{{ route('home') }}"
+                            class="px-3 text-decoration-none text-dark py-4 rounded-5 @if (Route::currentRouteName() == 'home') active @endif">HOME</a>
+                        <a href="{{ route('comicsList') }}"
+                            class="px-3 text-decoration-none text-dark py-4 rounded-5 @if (Route::currentRouteName() == 'comicsList') active @endif">COMICS
+                            LIST</a>
 
                     </nav>
                 </div>

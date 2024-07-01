@@ -39,3 +39,7 @@ a:hover {
 span {
     color: white;
 }
+
+.active {
+    background-color: white;
+}
