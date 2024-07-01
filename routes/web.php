@@ -20,9 +20,9 @@ Route::get('/home', function () {
     return view('homepage', $data);
 });
 
-Route::get('/cardList', function () {
+Route::get('/comicList', function () {
 
     $data = config("data");
 
-    return view('cardList', $data);
+    return view('comicList', $data);
 });
