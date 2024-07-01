@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('content')
     <h1 class="text-center display-1 fw-bold text-warning">HELLO LARAVEL COMICS</h1>
