@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+
+    $data = config("data.store");
+
+    return view('homepage', $data);
+})->name("home");
+
 Route::get('/home', function () {
 
     $data = config("data.store");
